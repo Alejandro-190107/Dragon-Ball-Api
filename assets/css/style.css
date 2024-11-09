@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Kanit:wght@500&family=Permanent+Marker&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar Style */
+.navbar{
+  background-color: #D81B60;
+}
+
+.nav-link{
+  color: #7986CB;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: cursive;
+}
+
+/* Container Main Style */
+
+.container-main {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 500px;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 10vh;
+}
+
+hr{
+  border-color: #D81B60;
+}
+
+/* Card Search Data Style */
+
+.card-searchData{
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 400px;
+  text-align: center;
+}
+
+.title-searchData{
+  color: #FBC02D;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.input-searchData{
+  border-color: #FBC02D;
+}
+
+
+.btn-searchData{
+  background-color: #D81B60;
+  color: white;
+}
+
+.btn-searchData:hover{
+  background-color: #F50057;
+  color: white;
+}
+
+.img-backgroundSearch{
+  max-height: 200px;
+}
+
+/* Card Charter Data Style */
+
+.card-characterData{
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 400px;
+  text-align: center;
+}
+
+.title-characterData{
+  color: #FBC02D;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+}
+
+strong{
+  color: #D81B60;
+  font-family: "Permanent Marker", cursive;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.list-characterData{
+  color: black;
+  font-weight: 600;
+}
+
+.img-characterData{
+  max-height: 200px;
+  filter: drop-shadow(5px 5px 10px rgba(241, 8, 47, 0.459));
+  animation: move-right 2s infinite alternate;
+}
+
+@keyframes move-right {
+  0% {
+      transform: translatey(0);
+  }
+  100% {
+      transform: translatey(20px);
+  }
+}
+
+/* Footer Style */
+
+.footer{
+  background-color: #D81B60;
+}
+
+.copyright{
+  color: #FFF9C4;
+  font-family: cursive;
+  text-align: center;
+}
+
+.copyright-link{
+  color: #FFEB3B;
+  font-weight: 700;
+  text-align: center;
+}

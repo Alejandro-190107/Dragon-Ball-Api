@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css" rel="stylesheet" />
+    <!--  Logo For Page  -->
+    <link href="assets/img/logo.png" rel="icon">
+    <!--  CSS Local  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title> Dragon Ball API </title>
+</head>
+
+<body>
+    <header>
+        <!-- beggin Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand me-2" href="index.html"><img src="assets/img//logo gift.gif" height="50" alt="logo"/></a>
+                <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                       <!--  <li class="nav-link"> Dragon Ball API </li> -->
+                    </ul>
+  
+                    <div class="d-flex align-items-center">
+                        <a data-mdb-ripple-init class="btn btn-dark btn-floating px-3 me-2" href="mailto:alejandrolopez190107@gmail.com" role="button"><i class="fab fa-google fa-2x"></i></a>
+                        <a data-mdb-ripple-init class="btn btn-dark btn-floating px-3 me-2" href="https://www.linkedin.com/in/daniel-alejandro-l%C3%B3pez-herrera-477548241" target="_blank" role="button"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a data-mdb-ripple-init class="btn btn-dark btn-floating px-3 me-2" href="https://github.com/Alejandro-190107" target="_blank" role="button"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end Navbar -->
+    </header>
+
+    <!-- beggin container -->
+    <div class="container-main my-5">
+        <div class="col-lg-12 mx-auto">
+            <!-- beggin row -->
+            <div class="row">
+
+                <!-- beggin card search -->
+                <div class="col-sm-6 mb-3">
+                    <div class="card card-searchData">
+                        <div class="card-body">
+                            <h5 class="card-title title-searchData"> <i class="fa-regular fa-user"></i> Character Search </h5> <hr>
+                            <div class="input-group mb-3">
+                                <input type="text" id="characterName" class="form-control input-searchData" placeholder="Enter the character's name">
+                                <button class="btn btn-searchData" onclick="searchCharacter()"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                            <img src="assets/img/background.png" class="img-fluid rounded-start img-backgroundSearch" alt="background"/>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card search -->
+
+                <!-- beggin card charter data -->
+                <div class="col-sm-6 mb-3 px-3">
+                    <div class="card card-characterData">
+                        <div class="card-body">
+                            <h5 class="card-title title-characterData"> Character Data <i class="fa-solid fa-table"></i> </h5> <hr>
+                            <!-- <div class="databack" id="resultado"></div> -->
+                            <div id="resultado"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card charter data -->
+
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+    <!-- end container -->
+
+
+    <!-- Footer -->
+    <footer class="footer text-center text-lg-start fixed-bottom">
+        <div class="text-center p-3">
+            <p class="copyright"> <i class="fa-solid fa-copyright"></i> 2024 Copyright: <a class="copyright-link fw-bold" href="https://personal-portfolio-al.netlify.app/" target="_blank"> Alejandro López </a></p>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"></script>
+     <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    <!-- Framework Font Awesome -->
+    <script src="https://kit.fontawesome.com/09ca335a75.js" crossorigin="anonymous"></script>
+    <!-- Sweet Alert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- JavaScript Local -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
